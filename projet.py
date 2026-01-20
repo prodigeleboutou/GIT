@@ -1,6 +1,8 @@
 # commande git log permet de voir tous les commits éffectués
 # git branch -a pour voir toutes les branches(principal et autres)
 
+
+
 class Personne:
     def __init__(self ,a,b,c):
         self.a=input("entrez un nom")
@@ -20,3 +22,4 @@ class Personne:
 
 perso1=Personne("Alice","Guerrière", 100)
 perso1.info()
+# commentaire 
