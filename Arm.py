@@ -1,0 +1,1 @@
+print("ici nous utilisons des armes ")

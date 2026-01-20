@@ -1,6 +1,8 @@
 # commande git log permet de voir tous les commits éffectués
 # git branch -a pour voir toutes les branches(principal et autres)
 
+from tabulate import tabulate 
+
 class Personne:
     def __init__(self ,a,b,c):
         self.a=input("entrez un nom")
